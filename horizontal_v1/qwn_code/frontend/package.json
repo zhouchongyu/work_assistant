@@ -1,0 +1,40 @@
+{
+  "name": "work-assistant-frontend",
+  "version": "1.0.0",
+  "description": "面向人力资源招聘场景的智能分析系统前端",
+  "main": "src/main.ts",
+  "scripts": {
+    "dev": "vite",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview"
+  },
+  "keywords": [
+    "vue",
+    "typescript",
+    "element-plus",
+    "vite",
+    "hr",
+    "recruitment"
+  ],
+  "author": "Work Assistant Team",
+  "license": "MIT",
+  "dependencies": {
+    "vue": "^3.5.12",
+    "vue-router": "^4.4.5",
+    "pinia": "^2.2.4",
+    "@element-plus/icons-vue": "^2.3.1",
+    "element-plus": "^2.8.4",
+    "axios": "^1.7.7",
+    "normalize.css": "^8.0.1",
+    "@vueuse/core": "^11.1.0"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.1.4",
+    "typescript": "~5.6.2",
+    "vue-tsc": "^2.1.6",
+    "@vue/runtime-core": "^3.5.12",
+    "vite": "^5.4.8",
+    "sass": "^1.79.5",
+    "@types/node": "^22.7.5"
+  }
+}
